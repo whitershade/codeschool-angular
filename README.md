@@ -1,2 +1,2 @@
 # codeschool-angular
-example how to use angular from codeschool
+example how to use angular.js from codeschool
