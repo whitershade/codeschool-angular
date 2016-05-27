@@ -1,0 +1,42 @@
+@import "header";
+//Custom Styles Here
+body {
+  color: #000;
+  margin: 0;
+  font-size: 16px;
+}
+
+.main-header {}
+
+main {
+  ul {
+    list-style: none;
+  }
+  .img-wrapper {
+    display: inline-block;
+  }
+}
+
+.product-tab {
+  li {
+    display: inline-block;
+    &.active {
+      a {
+        color: red;
+      }
+    }
+  }
+}
+
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
+}
+
+.main-footer {}
+
+//ALWAYS END
+@import "media";
